@@ -1,0 +1,14 @@
+## Add the following modules to your /.bashrc file. ##
+
+module load slurm-14.11.8
+
+module load gnu-4.4-compilers
+module load fftw-3.3.3
+module load perl-5.20.0
+
+~~~~~
+
+## Module requirements may change. ###
+## To double check the module requirements run the following in your terminal ###
+
+module whatis slurm-14.11.8
